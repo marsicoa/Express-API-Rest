@@ -1,13 +1,5 @@
 const res = require('express/lib/response')
 const fs = require('fs')
-//const fsPromises = fs.promises
-/*
-❏ readFile: lectura de un archivo en forma asincrónica
-❏ writeFile: escritura de un archivo en forma asincrónica
-❏ appendFile: actualización de un archivo en forma asincrónica
-❏ unlink: borrado de un archivo en forma asincrónica
-❏ mkdir: creación de una carpeta
-*/
 let db = []
 class Contenedor{
     constructor(archivo){
